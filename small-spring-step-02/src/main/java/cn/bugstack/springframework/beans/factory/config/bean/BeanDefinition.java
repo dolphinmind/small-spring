@@ -1,7 +1,8 @@
-package cn.bugstack.springframework.beans.factory.config;
+package cn.bugstack.springframework.beans.factory.config.bean;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
+ * @description 定义BeanClass容器
  */
 @SuppressWarnings({"rawtypes"})
 public class BeanDefinition {
@@ -16,7 +17,7 @@ public class BeanDefinition {
         return beanClass;
     }
 
-    public void setBeanClass(Class beanClass) {
-        this.beanClass = beanClass;
-    }
+//    public void addBeanClass(Class beanClass) {
+//        this.beanClass = beanClass;
+//    }
 }

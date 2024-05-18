@@ -1,14 +1,18 @@
 package cn.bugstack.springframework.beans.factory.support;
 
-import cn.bugstack.springframework.beans.BeansException;
-import cn.bugstack.springframework.beans.factory.BeanFactory;
-import cn.bugstack.springframework.beans.factory.config.BeanDefinition;
+import cn.bugstack.springframework.beans.factory.config.BeansException;
+import cn.bugstack.springframework.beans.factory.config.bean.BeanFactory;
+import cn.bugstack.springframework.beans.factory.config.bean.BeanDefinition;
+import cn.bugstack.springframework.beans.factory.config.singleton.DefaultSingletonBeanRegistry;
 
 /**
  *
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
- *
- * BeanDefinition 注册表接口
+ * @description 模板设计模式，目标是什么？设计步骤
+ *              0. 类的extends和implements组合使用，Bean才是老大哥，Singleton是小弟，统一接口GetBean获取
+ *              1. 查看某个类是否为单例
+ *              2. 不是，则将类进行BeanDefinition封装
+ *              3. 再将BeanDefinition放进
  */
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
 

@@ -1,13 +1,16 @@
 package cn.bugstack.springframework.beans.factory.support;
 
-import cn.bugstack.springframework.beans.BeansException;
-import cn.bugstack.springframework.beans.factory.config.BeanDefinition;
+import cn.bugstack.springframework.beans.factory.config.BeansException;
+import cn.bugstack.springframework.beans.factory.config.bean.BeanDefinition;
+import cn.bugstack.springframework.beans.factory.config.bean.BeanDefinitionRegistry;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
+ * @description 继承实现，
+ *              beanDefinitionMap装入的是BeanDefinition：容器+实体
  */
 public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFactory implements BeanDefinitionRegistry {
 

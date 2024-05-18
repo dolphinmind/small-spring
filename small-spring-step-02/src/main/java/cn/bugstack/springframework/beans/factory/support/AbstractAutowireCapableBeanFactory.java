@@ -1,10 +1,13 @@
 package cn.bugstack.springframework.beans.factory.support;
 
-import cn.bugstack.springframework.beans.BeansException;
-import cn.bugstack.springframework.beans.factory.config.BeanDefinition;
+import cn.bugstack.springframework.beans.factory.config.BeansException;
+import cn.bugstack.springframework.beans.factory.config.bean.BeanDefinition;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
+ * @description 继承实现
+ *              1. 自动创建Bean对象
+ *              2. 将Bean实例对象装配到单例对象集中
  */
 public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory {
 

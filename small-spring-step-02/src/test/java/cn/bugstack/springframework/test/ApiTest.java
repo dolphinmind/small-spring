@@ -1,6 +1,6 @@
 package cn.bugstack.springframework.test;
 
-import cn.bugstack.springframework.beans.factory.config.BeanDefinition;
+import cn.bugstack.springframework.beans.factory.config.bean.BeanDefinition;
 import cn.bugstack.springframework.beans.factory.support.DefaultListableBeanFactory;
 import cn.bugstack.springframework.test.bean.UserService;
 import org.junit.Test;
