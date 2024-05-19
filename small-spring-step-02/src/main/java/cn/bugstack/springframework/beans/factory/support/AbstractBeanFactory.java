@@ -1,7 +1,6 @@
 package cn.bugstack.springframework.beans.factory.support;
 
 import cn.bugstack.springframework.beans.factory.config.BeansException;
-import cn.bugstack.springframework.beans.factory.config.bean.BeanFactory;
 import cn.bugstack.springframework.beans.factory.config.bean.BeanDefinition;
 import cn.bugstack.springframework.beans.factory.config.singleton.DefaultSingletonBeanRegistry;
 

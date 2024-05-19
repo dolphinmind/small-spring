@@ -1,4 +1,4 @@
-package cn.bugstack.springframework.beans.factory.config.bean;
+package cn.bugstack.springframework.beans.factory.support;
 
 import cn.bugstack.springframework.beans.factory.config.BeansException;
 
