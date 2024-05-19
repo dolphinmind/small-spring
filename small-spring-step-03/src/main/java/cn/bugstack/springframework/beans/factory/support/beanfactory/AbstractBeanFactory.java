@@ -21,6 +21,13 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
         return doGetBean(name, args);
     }
 
+    /**
+     * @description 多加入了一层逻辑，对于有参数构造函数的解析，模板的逻辑没有发生根本改变
+     * @param name
+     * @param args
+     * @return
+     * @param <T>
+     */
     protected <T> T doGetBean(final String name, final Object[] args) {
         Object bean = getSingleton(name);
         if (bean != null) {
