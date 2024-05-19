@@ -1,4 +1,4 @@
-package cn.bugstack.springframework.beans.factory.support;
+package cn.bugstack.springframework.beans.factory.config.bean;
 
 import cn.bugstack.springframework.core.io.DefaultResourceLoader;
 import cn.bugstack.springframework.core.io.ResourceLoader;

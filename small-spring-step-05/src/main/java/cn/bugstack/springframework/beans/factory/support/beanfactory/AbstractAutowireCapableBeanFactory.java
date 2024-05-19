@@ -1,16 +1,15 @@
-package cn.bugstack.springframework.beans.factory.support;
+package cn.bugstack.springframework.beans.factory.support.beanfactory;
 
-import cn.bugstack.springframework.beans.BeansException;
-import cn.bugstack.springframework.beans.PropertyValue;
-import cn.bugstack.springframework.beans.PropertyValues;
-import cn.bugstack.springframework.beans.factory.config.BeanDefinition;
-import cn.bugstack.springframework.beans.factory.config.BeanReference;
+import cn.bugstack.springframework.beans.factory.config.BeansException;
+import cn.bugstack.springframework.beans.factory.config.bean.PropertyValue;
+import cn.bugstack.springframework.beans.factory.config.bean.PropertyValues;
+import cn.bugstack.springframework.beans.factory.config.bean.BeanDefinition;
+import cn.bugstack.springframework.beans.factory.config.bean.BeanReference;
+import cn.bugstack.springframework.beans.factory.support.instantiationstrategy.CglibSubclassingInstantiationStrategy;
+import cn.bugstack.springframework.beans.factory.support.instantiationstrategy.InstantiationStrategy;
 import cn.hutool.core.bean.BeanUtil;
 
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
-import java.util.*;
-import java.util.concurrent.TimeUnit;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring

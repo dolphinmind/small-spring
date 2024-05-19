@@ -1,4 +1,4 @@
-package cn.bugstack.springframework.beans.factory;
+package cn.bugstack.springframework.beans.factory.support.beanfactory;
 
 /**
  * Sub-interface implemented by bean factories that can be part

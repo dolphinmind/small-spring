@@ -1,6 +1,6 @@
-package cn.bugstack.springframework.beans.factory;
+package cn.bugstack.springframework.beans.factory.support.beanfactory;
 
-import cn.bugstack.springframework.beans.BeansException;
+import cn.bugstack.springframework.beans.factory.config.BeansException;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package cn.bugstack.springframework.beans.factory.config;
+package cn.bugstack.springframework.beans.factory.config.singleton;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring

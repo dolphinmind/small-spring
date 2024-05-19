@@ -1,6 +1,4 @@
-package cn.bugstack.springframework.beans.factory.config;
-
-import cn.bugstack.springframework.beans.PropertyValues;
+package cn.bugstack.springframework.beans.factory.config.bean;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
