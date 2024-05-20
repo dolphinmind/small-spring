@@ -1,5 +1,6 @@
 package cn.bugstack.springframework.beans.factory.support.beanfactory.beanup;
 
+import cn.bugstack.springframework.beans.factory.config.beandefinition.BeanDefinitionRegistry;
 import cn.bugstack.springframework.core.io.impl.DefaultResourceLoader;
 import cn.bugstack.springframework.core.io.ResourceLoader;
 

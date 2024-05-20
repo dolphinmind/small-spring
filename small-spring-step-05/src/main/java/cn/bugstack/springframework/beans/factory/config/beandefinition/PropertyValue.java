@@ -1,4 +1,4 @@
-package cn.bugstack.springframework.beans.factory.config.bean;
+package cn.bugstack.springframework.beans.factory.config.beandefinition;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring

@@ -1,8 +1,8 @@
 package cn.bugstack.springframework.beans.factory.support.beanfactory.impl;
 
 import cn.bugstack.springframework.beans.factory.config.BeansException;
-import cn.bugstack.springframework.beans.factory.config.bean.BeanDefinition;
-import cn.bugstack.springframework.beans.factory.support.beanfactory.beanup.BeanDefinitionRegistry;
+import cn.bugstack.springframework.beans.factory.config.beandefinition.BeanDefinition;
+import cn.bugstack.springframework.beans.factory.config.beandefinition.BeanDefinitionRegistry;
 import cn.bugstack.springframework.beans.factory.support.beanfactory.ConfigurableListableBeanFactory;
 
 import java.util.HashMap;

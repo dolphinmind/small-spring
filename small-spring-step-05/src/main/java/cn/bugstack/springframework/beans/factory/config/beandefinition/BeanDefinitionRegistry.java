@@ -1,7 +1,6 @@
-package cn.bugstack.springframework.beans.factory.support.beanfactory.beanup;
+package cn.bugstack.springframework.beans.factory.config.beandefinition;
 
 import cn.bugstack.springframework.beans.factory.config.BeansException;
-import cn.bugstack.springframework.beans.factory.config.bean.BeanDefinition;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring

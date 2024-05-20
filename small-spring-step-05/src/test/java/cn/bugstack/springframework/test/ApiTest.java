@@ -1,11 +1,11 @@
 package cn.bugstack.springframework.test;
 
-import cn.bugstack.springframework.beans.factory.config.bean.PropertyValue;
-import cn.bugstack.springframework.beans.factory.config.bean.PropertyValues;
-import cn.bugstack.springframework.beans.factory.config.bean.BeanDefinition;
-import cn.bugstack.springframework.beans.factory.config.bean.BeanReference;
+import cn.bugstack.springframework.beans.factory.config.beandefinition.PropertyValue;
+import cn.bugstack.springframework.beans.factory.config.beandefinition.PropertyValues;
+import cn.bugstack.springframework.beans.factory.config.beandefinition.BeanDefinition;
+import cn.bugstack.springframework.beans.factory.config.beandefinition.BeanReference;
 import cn.bugstack.springframework.beans.factory.support.beanfactory.impl.DefaultListableBeanFactory;
-import cn.bugstack.springframework.beans.factory.xml.XmlBeanDefinitionReader;
+import cn.bugstack.springframework.beans.factory.support.beanfactory.beanup.xml.XmlBeanDefinitionReader;
 import cn.bugstack.springframework.core.io.impl.DefaultResourceLoader;
 import cn.bugstack.springframework.core.io.Resource;
 import cn.bugstack.springframework.test.bean.UserDao;
@@ -47,6 +47,10 @@ public class ApiTest {
 
     private DefaultResourceLoader resourceLoader;
 
+    /**
+     * <p>@Before</p> 是JUnit框架中的一个注解，它用于标记一个方法，在每个测试方法执行之前执行
+     *
+     */
     @Before
     public void init() {
         resourceLoader = new DefaultResourceLoader();
@@ -70,7 +74,7 @@ public class ApiTest {
 
     @Test
     public void test_url() throws IOException {
-        Resource resource = resourceLoader.getResource("https://github.com/fuzhengwei/small-spring/important.properties");
+        Resource resource = resourceLoader.getResource("https://github.com/dolphinmind/small-spring/blob/main/small-spring-step-05/src/test/resources/important.properties");
         InputStream inputStream = resource.getInputStream();
         String content = IoUtil.readUtf8(inputStream);
         System.out.println(content);
