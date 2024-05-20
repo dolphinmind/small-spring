@@ -6,7 +6,7 @@ package cn.bugstack.springframework.util;
  *              如果获取失败则返回系统类加载器，或者当前类的类加载器
  *  代码分析
  *  1. 类声明
- *  2. 方法声明
+ *  2. 静态方法声明
  *  3. 尝试获取当前线程的上下文类加载器
  *  4. 异常处理
  *  5. 检查类加载器是否为空
@@ -35,7 +35,7 @@ public class ClassUtils {
             // Cannot access thread context ClassLoader - falling back to system class loader...
         }
 
-        // 如果上下文类加载器未空，使用当前类的类加载器
+        // 如果上下文类加载器为空，使用当前类的类加载器
         if (classloader == null) {
             // No thread context class loader -> use class loader of this class.
             classloader = ClassUtils.class.getClassLoader();

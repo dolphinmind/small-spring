@@ -7,8 +7,8 @@ import java.lang.reflect.Constructor;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
- * <p>
- * Bean 实例化策略
+ *
+ * @description 描述一个实例化策略，用于根据给定的BeanDefinition、bean名称、构造函数和参数来实例化一个对象
  */
 public interface InstantiationStrategy {
 

@@ -1,6 +1,7 @@
-package cn.bugstack.springframework.beans.factory.config.bean;
+package cn.bugstack.springframework.beans.factory.support.beanfactory.beanup;
 
 import cn.bugstack.springframework.beans.factory.config.BeansException;
+import cn.bugstack.springframework.beans.factory.config.bean.BeanDefinition;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
@@ -8,7 +9,7 @@ import cn.bugstack.springframework.beans.factory.config.BeansException;
 public interface BeanDefinitionRegistry {
 
     /**
-     * 向注册表中注册 BeanDefinition
+     * 向注册表中注册指定的BeanDefinition
      *
      * @param beanName
      * @param beanDefinition

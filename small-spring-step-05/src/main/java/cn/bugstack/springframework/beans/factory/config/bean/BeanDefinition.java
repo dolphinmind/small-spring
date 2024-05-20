@@ -4,9 +4,10 @@ package cn.bugstack.springframework.beans.factory.config.bean;
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public class BeanDefinition {
-
+    // 表示Bean的类对象
     private Class beanClass;
 
+    // 表示Bean的属性值集合
     private PropertyValues propertyValues;
 
     public BeanDefinition(Class beanClass) {
