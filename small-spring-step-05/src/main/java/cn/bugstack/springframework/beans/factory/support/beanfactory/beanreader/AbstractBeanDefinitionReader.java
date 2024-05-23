@@ -1,8 +1,9 @@
-package cn.bugstack.springframework.beans.factory.support.beanfactory.beanup;
+package cn.bugstack.springframework.beans.factory.support.beanfactory.beanreader;
 
 import cn.bugstack.springframework.beans.factory.config.beandefinition.BeanDefinitionRegistry;
 import cn.bugstack.springframework.core.io.impl.DefaultResourceLoader;
 import cn.bugstack.springframework.core.io.ResourceLoader;
+
 
 /**
  * Abstract base class for bean definition readers which implement

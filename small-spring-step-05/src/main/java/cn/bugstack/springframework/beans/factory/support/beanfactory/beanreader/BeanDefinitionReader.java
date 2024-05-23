@@ -1,4 +1,4 @@
-package cn.bugstack.springframework.beans.factory.support.beanfactory.beanup;
+package cn.bugstack.springframework.beans.factory.support.beanfactory.beanreader;
 
 import cn.bugstack.springframework.beans.factory.config.BeansException;
 import cn.bugstack.springframework.beans.factory.config.beandefinition.BeanDefinitionRegistry;

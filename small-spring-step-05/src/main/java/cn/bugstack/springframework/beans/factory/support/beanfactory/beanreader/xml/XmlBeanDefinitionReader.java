@@ -4,7 +4,7 @@ import cn.bugstack.springframework.beans.factory.config.BeansException;
 import cn.bugstack.springframework.beans.factory.config.beandefinition.PropertyValue;
 import cn.bugstack.springframework.beans.factory.config.beandefinition.BeanDefinition;
 import cn.bugstack.springframework.beans.factory.config.beandefinition.BeanReference;
-import cn.bugstack.springframework.beans.factory.support.beanfactory.beanup.AbstractBeanDefinitionReader;
+import cn.bugstack.springframework.beans.factory.support.beanfactory.beanreader.AbstractBeanDefinitionReader;
 import cn.bugstack.springframework.beans.factory.config.beandefinition.BeanDefinitionRegistry;
 import cn.bugstack.springframework.core.io.Resource;
 import cn.bugstack.springframework.core.io.ResourceLoader;
