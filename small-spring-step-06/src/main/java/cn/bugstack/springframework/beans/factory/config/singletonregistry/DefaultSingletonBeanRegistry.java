@@ -1,11 +1,10 @@
-package cn.bugstack.springframework.beans.factory.config.singleton;
+package cn.bugstack.springframework.beans.factory.config.singletonregistry;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
- * @description 单例对象集合，缓存
  */
 public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
 

@@ -1,8 +1,8 @@
 package cn.bugstack.springframework.context.support;
 
-import cn.bugstack.springframework.beans.BeansException;
-import cn.bugstack.springframework.beans.factory.ConfigurableListableBeanFactory;
-import cn.bugstack.springframework.beans.factory.support.DefaultListableBeanFactory;
+import cn.bugstack.springframework.beans.factory.support.exception.BeansException;
+import cn.bugstack.springframework.beans.factory.support.beanfactory.ConfigurableListableBeanFactory;
+import cn.bugstack.springframework.beans.factory.support.beanfactory.support.DefaultListableBeanFactory;
 
 /**
  * Base class for {@link cn.bugstack.springframework.context.ApplicationContext}

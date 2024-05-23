@@ -1,16 +1,14 @@
 package cn.bugstack.springframework.beans.factory.config.beandefinition;
 
-import cn.bugstack.springframework.beans.factory.config.BeansException;
+import cn.bugstack.springframework.beans.factory.support.exception.BeansException;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
- * @description BeanDefinitionRegistry由BeanName 和beanDefinition组成构成键值对
- *
  */
 public interface BeanDefinitionRegistry {
 
     /**
-     * 向注册表中注册指定的BeanDefinition
+     * 向注册表中注册 BeanDefinition
      *
      * @param beanName
      * @param beanDefinition

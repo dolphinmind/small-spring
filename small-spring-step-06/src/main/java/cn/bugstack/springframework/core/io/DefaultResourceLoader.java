@@ -1,5 +1,8 @@
 package cn.bugstack.springframework.core.io;
 
+import cn.bugstack.springframework.core.io.impl.ClassPathResource;
+import cn.bugstack.springframework.core.io.impl.FileSystemResource;
+import cn.bugstack.springframework.core.io.impl.UrlResource;
 import cn.hutool.core.lang.Assert;
 
 import java.net.MalformedURLException;

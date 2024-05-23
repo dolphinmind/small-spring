@@ -2,13 +2,11 @@ package cn.bugstack.springframework.beans.factory.config.beandefinition;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
- * @description 定义本身就是一种容器，容器里面装有bean的元数据
  */
 public class BeanDefinition {
-    // 表示Bean的类对象
+
     private Class beanClass;
 
-    // 表示Bean的属性值集合
     private PropertyValues propertyValues;
 
     public BeanDefinition(Class beanClass) {
