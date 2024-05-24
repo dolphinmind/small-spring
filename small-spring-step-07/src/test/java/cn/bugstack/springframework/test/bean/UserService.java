@@ -1,7 +1,7 @@
 package cn.bugstack.springframework.test.bean;
 
-import cn.bugstack.springframework.beans.factory.DisposableBean;
-import cn.bugstack.springframework.beans.factory.InitializingBean;
+import cn.bugstack.springframework.beans.factory.beandispose.DisposableBean;
+import cn.bugstack.springframework.beans.factory.beaninitialize.InitializingBean;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring

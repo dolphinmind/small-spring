@@ -1,6 +1,6 @@
 package cn.bugstack.springframework.context;
 
-import cn.bugstack.springframework.beans.factory.support.exception.BeansException;
+import cn.bugstack.springframework.exception.BeansException;
 
 /**
  * SPI interface to be implemented by most if not all application contexts.

@@ -1,6 +1,6 @@
 package cn.bugstack.springframework.context;
 
-import cn.bugstack.springframework.beans.factory.support.beanfactory.ListableBeanFactory;
+import cn.bugstack.springframework.beans.factory.interfaces.ListableBeanFactory;
 
 /**
  * Central interface to provide configuration for an application.

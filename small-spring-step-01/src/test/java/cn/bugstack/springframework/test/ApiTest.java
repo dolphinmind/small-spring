@@ -1,7 +1,7 @@
 package cn.bugstack.springframework.test;
 
-import cn.bugstack.springframework.BeanDefinition;
-import cn.bugstack.springframework.BeanFactory;
+import cn.bugstack.springframework.beans.bean.BeanDefinition;
+import cn.bugstack.springframework.beans.factory.BeanFactory;
 import cn.bugstack.springframework.test.bean.UserService;
 import org.junit.Test;
 

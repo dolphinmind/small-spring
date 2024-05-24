@@ -1,7 +1,7 @@
 package cn.bugstack.springframework.test;
 
-import cn.bugstack.springframework.beans.factory.config.bean.BeanDefinition;
-import cn.bugstack.springframework.beans.factory.support.beanfactory.DefaultListableBeanFactory;
+import cn.bugstack.springframework.beans.bean.BeanDefinition;
+import cn.bugstack.springframework.beans.factory.beancreate.DefaultListableBeanFactory;
 import cn.bugstack.springframework.test.bean.UserService;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.NoOp;

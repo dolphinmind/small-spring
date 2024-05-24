@@ -1,19 +1,13 @@
 package cn.bugstack.springframework.test;
 
-import cn.bugstack.springframework.beans.PropertyValue;
-import cn.bugstack.springframework.beans.PropertyValues;
-import cn.bugstack.springframework.beans.factory.config.BeanDefinition;
-import cn.bugstack.springframework.beans.factory.config.BeanReference;
-import cn.bugstack.springframework.beans.factory.support.DefaultListableBeanFactory;
+import cn.bugstack.springframework.beans.bean.PropertyValue;
+import cn.bugstack.springframework.beans.bean.PropertyValues;
+import cn.bugstack.springframework.beans.bean.BeanDefinition;
+import cn.bugstack.springframework.beans.bean.BeanReference;
+import cn.bugstack.springframework.beans.factory.beancreate.DefaultListableBeanFactory;
 import cn.bugstack.springframework.test.bean.UserDao;
 import cn.bugstack.springframework.test.bean.UserService;
-import net.sf.cglib.proxy.Callback;
-import net.sf.cglib.proxy.Enhancer;
-import net.sf.cglib.proxy.NoOp;
 import org.junit.Test;
-
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
