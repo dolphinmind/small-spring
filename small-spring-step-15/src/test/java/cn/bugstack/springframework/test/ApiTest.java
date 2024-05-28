@@ -1,6 +1,6 @@
 package cn.bugstack.springframework.test;
 
-import cn.bugstack.springframework.context.support.ClassPathXmlApplicationContext;
+import cn.bugstack.springframework.context.template.ClassPathXmlApplicationContext;
 import cn.bugstack.springframework.test.bean.IUserService;
 import org.junit.Test;
 

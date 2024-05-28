@@ -9,7 +9,7 @@
         <property name="marriageDate" value="2021-08-08"/>
     </bean>
 
-    <bean id="conversionService" class="cn.bugstack.springframework.context.support.ConversionServiceFactoryBean">
+    <bean id="conversionService" class="cn.bugstack.springframework.context.template.ConversionServiceFactoryBean">
         <property name="converters" ref="converters"/>
     </bean>
 

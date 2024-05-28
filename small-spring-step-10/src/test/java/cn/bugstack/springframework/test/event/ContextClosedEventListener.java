@@ -1,7 +1,7 @@
 package cn.bugstack.springframework.test.event;
 
-import cn.bugstack.springframework.context.ApplicationListener;
-import cn.bugstack.springframework.context.event.ContextClosedEvent;
+import cn.bugstack.springframework.event.ApplicationListener;
+import cn.bugstack.springframework.event.template.ContextClosedEvent;
 
 public class ContextClosedEventListener implements ApplicationListener<ContextClosedEvent> {
 

@@ -1,6 +1,6 @@
 package cn.bugstack.springframework.beans.factory.config;
 
-import cn.bugstack.springframework.beans.BeansException;
+import cn.bugstack.springframework.exception.BeansException;
 
 /**
  * Factory hook that allows for custom modification of new bean instances,

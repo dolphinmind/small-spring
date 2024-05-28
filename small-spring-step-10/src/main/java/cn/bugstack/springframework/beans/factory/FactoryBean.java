@@ -1,5 +1,7 @@
 package cn.bugstack.springframework.beans.factory;
 
+import cn.bugstack.springframework.beans.factory.factorybean.BeanFactory;
+
 /**
  * Interface to be implemented by objects used within a {@link BeanFactory}
  * which are themselves factories. If a bean implements this interface,

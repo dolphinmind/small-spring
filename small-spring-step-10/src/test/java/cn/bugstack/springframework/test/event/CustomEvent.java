@@ -1,6 +1,6 @@
 package cn.bugstack.springframework.test.event;
 
-import cn.bugstack.springframework.context.event.ApplicationContextEvent;
+import cn.bugstack.springframework.event.template.ApplicationContextEvent;
 
 public class CustomEvent extends ApplicationContextEvent {
 

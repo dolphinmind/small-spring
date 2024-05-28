@@ -1,9 +1,8 @@
 package cn.bugstack.springframework.test;
 
-import cn.bugstack.springframework.context.support.ClassPathXmlApplicationContext;
+import cn.bugstack.springframework.context.template.ClassPathXmlApplicationContext;
 import cn.bugstack.springframework.test.event.CustomEvent;
 import org.junit.Test;
-import org.openjdk.jol.info.ClassLayout;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring

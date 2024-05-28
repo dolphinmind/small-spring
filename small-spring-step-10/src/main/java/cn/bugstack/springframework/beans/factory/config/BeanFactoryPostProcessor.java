@@ -1,7 +1,7 @@
 package cn.bugstack.springframework.beans.factory.config;
 
-import cn.bugstack.springframework.beans.BeansException;
-import cn.bugstack.springframework.beans.factory.ConfigurableListableBeanFactory;
+import cn.bugstack.springframework.exception.BeansException;
+import cn.bugstack.springframework.beans.factory.interfaces.ConfigurableListableBeanFactory;
 
 /**
  * Allows for custom modification of an application context's bean definitions,

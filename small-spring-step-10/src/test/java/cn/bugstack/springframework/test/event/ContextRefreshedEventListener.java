@@ -1,7 +1,7 @@
 package cn.bugstack.springframework.test.event;
 
-import cn.bugstack.springframework.context.ApplicationListener;
-import cn.bugstack.springframework.context.event.ContextRefreshedEvent;
+import cn.bugstack.springframework.event.ApplicationListener;
+import cn.bugstack.springframework.event.template.ContextRefreshedEvent;
 
 public class ContextRefreshedEventListener implements ApplicationListener<ContextRefreshedEvent> {
 

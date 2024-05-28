@@ -4,7 +4,7 @@ package cn.bugstack.springframework.test;
 import cn.bugstack.springframework.aop.AdvisedSupport;
 import cn.bugstack.springframework.aop.TargetSource;
 import cn.bugstack.springframework.aop.framework.Cglib2AopProxy;
-import cn.bugstack.springframework.context.support.ClassPathXmlApplicationContext;
+import cn.bugstack.springframework.context.template.ClassPathXmlApplicationContext;
 import cn.bugstack.springframework.jdbc.datasource.DataSourceTransactionManager;
 import cn.bugstack.springframework.jdbc.support.JdbcTemplate;
 import cn.bugstack.springframework.test.service.JdbcService;
@@ -19,8 +19,6 @@ import org.junit.Test;
 
 import javax.sql.DataSource;
 import java.lang.reflect.Method;
-import java.util.List;
-import java.util.Map;
 
 /**
  * @author zhangdd on 2022/1/28

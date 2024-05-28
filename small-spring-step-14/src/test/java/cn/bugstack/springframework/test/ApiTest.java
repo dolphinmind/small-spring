@@ -1,13 +1,8 @@
 package cn.bugstack.springframework.test;
 
-import cn.bugstack.springframework.beans.BeansException;
-import cn.bugstack.springframework.beans.factory.config.BeanPostProcessor;
-import cn.bugstack.springframework.context.support.ClassPathXmlApplicationContext;
+import cn.bugstack.springframework.context.template.ClassPathXmlApplicationContext;
 import cn.bugstack.springframework.test.bean.IUserService;
 import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring

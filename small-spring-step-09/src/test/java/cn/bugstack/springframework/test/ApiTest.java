@@ -1,7 +1,6 @@
 package cn.bugstack.springframework.test;
 
-import cn.bugstack.springframework.context.support.ClassPathXmlApplicationContext;
-import cn.bugstack.springframework.test.bean.IUserDao;
+import cn.bugstack.springframework.context.template.ClassPathXmlApplicationContext;
 import cn.bugstack.springframework.test.bean.UserService;
 import org.junit.Test;
 import org.openjdk.jol.info.ClassLayout;

@@ -1,7 +1,7 @@
 package cn.bugstack.springframework.test;
 
 
-import cn.bugstack.springframework.context.support.ClassPathXmlApplicationContext;
+import cn.bugstack.springframework.context.template.ClassPathXmlApplicationContext;
 import cn.bugstack.springframework.jdbc.support.JdbcTemplate;
 import org.junit.Before;
 import org.junit.Test;
